@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+<title>My Web Site</title>
+
+
+<style>
+input[type=text] {
+  width: 90%;
+  padding: 8px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: "tahoma";
+}
+input[type=password] {
+  width: 90%;
+  padding: 8px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: "tahoma";
+}
+
+textarea{
+	width: 90%;
+  padding: 8px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+}
+p, table{
+	font-family: "tahoma";
+	font-size: 15px;
+
+}
+h1{
+	font-family: "tahoma";
+	color: #ab008a;
+}
+
+
+.headliner{background-image: url(arkaplan.jpg); color:white; font:bold 20px tahoma;}
+.tablebg {font:15px tahoma;}
+.button {background-color: hotpink;border-radius:10px;color: black;padding: 15px 32px;text-align: center;text-decoration: none;display: 
+	inline-block;font-size:16px; font-family: "tahoma";}
+.border{border-style: solid; border-color: hotpink; padding: 20px; font-size: 15px;}
+.marjin{margin:9px;}
+   
+</style>
+
+   
+
+</head>
+<body style="background-color: thistle">
+
+
+<table class="headliner" align="center" border="0" width="1000">
+<tr>
+<td height="30"  align="center"><a href="index.html">Home<a></td>
+<td align="center"><a href="films.html">Films<a></td>
+<td align="center"><a href="books.html">Books<a></td>
+<td align="center"><a href="musics.html">Musics<a></td>
+<td align="center"><a href="usefullinks.html">Useful Links<a></td>
+<td align="center"><a href="contactme.html">Contact Me!<a></td>
+<td align="center"><a href="registration.html"><font size="6" color="#ff0000">Registration<font><a></td>
+</tr>
+
+
+</table>
+
+<br><br><hr>
+<h1 align="center"><i>Here is your registration form!</i></h1><hr><br>
+<table class="tablebg" align="center" border="0">
+<td>Name & Surname:</td><td align="center"><input name="" type="text" placeholder="Enter your name and surname"></td></tr>
+
+<tr><td>Password:</td><td align="center"><input name="" type="password" placeholder="Enter your password"></td></tr>
+
+<tr><td>E-mail:</td><td align="center"><input name="" type="text" placeholder="Enter your E-mail" size="2">
+
+<tr><td>Gender:</td>
+<td align="center"><select name="">
+<option></option>
+<option>Male</option>
+<option>Female</option></select></td></tr>
+
+<tr><td height="80">About Me:</td>
+<td align="center"><textarea name="" type="text" placeholder="Tell me something about me"></textarea> </td>
+
+
+<tr><td height="50">Department:</td>
+<td align="center"><select name="">
+<option></option>
+<option>Computer Engineering</option>
+<option>Civil Engineering</option>
+<option>Electrical Engineering</option>
+<option>Industrial Engineering</option>
+<option>Material Engineering</option>
+<option>Chemical Engineering</option>
+</select></td></tr>
+
+<tr><td height="50">Date of Birth:</td>
+    <td align="center">  <input type="Date" placeholder="Enter your Birthday" name="DateofBirth" required=""></td>
+</tr>
+
+</table>
+<br><hr>
+<center><br>
+<p><b>Upload Your Photo:</b></p>
+<td align="center"><input name="" type="file">
+</center>
+
+
+
+<center><br>
+<p><b>Mark Your Interests:</b></p>
+<table class="border">
+<tr><td>
+<input class="marjin" name="" type="checkbox" value="Gaming">Gaming<br>
+<input class="marjin" name="" type="checkbox" value="Education">Education<br>
+<input class="marjin" name="" type="checkbox" value="Comedy">Comedy</td>
+<td>
+<input  class="marjin" name="" type="checkbox" value="Music">Music<br>
+<input  class="marjin" name="" type="checkbox" value="Pets and Animals">Pets and Animals<br>
+<input  class="marjin" name="" type="checkbox" value="Film and Animation">Film and Animation</td><td>
+<input  class="marjin" name="" type="checkbox" value="Sports">Sports<br>
+<input  class="marjin" name="" type="checkbox" value="Politics">Politics<br>
+<input  class="marjin" name="" type="checkbox" value="Autos and Vehicles">Autos and Vehicles</td><td>
+<input  class="marjin" name="" type="checkbox" value="Science and Tech">Science and Tech
+<br>
+<input  class="marjin" name="" type="checkbox" value="Yoga">Yoga<br> 
+<input  class="marjin" name="" type="checkbox" value="Nature">Nature
+
+ </table>
+
+<br><br>
+
+<button class="button" onclick="deneme()"><a style="color:indigo">Submit</button>
+
+<button class="button"><a href="Registration.html" style="color:indigo">Reset</button>
+<script> function deneme() {
+alert("Thanks for registration!");}
+</script>
+
+</center>
+
+
+</body>
+</html>
